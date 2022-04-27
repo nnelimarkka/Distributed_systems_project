@@ -1,0 +1,122 @@
+body {
+  background-color: #333;
+  color: #fff;
+  white-space: pre-line;
+}
+
+input {
+  margin-top: 10px;
+  display: block;
+}
+
+input.text-container {
+  padding: auto;
+  margin-top: 10px;
+  min-width: 500px;
+  min-height: auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+label {
+  display:block;
+}
+
+.page-link {
+  padding: 10px;
+}
+
+/* Make buttons be more centered in divs like post input */
+.container-button {
+  margin: 5px 0px 10px 0px;
+}
+
+/* Making error messages more noticeable */
+.error-container {
+  color: red;
+}
+
+.success-container {
+  color: green;
+}
+
+.post-time {
+  text-align: left;
+}
+
+.edit-time {
+  text-align: left;
+  font-weight: lighter;
+}
+
+.edit-link {
+  text-align: right;
+  color: #fff;
+}
+
+/* Making pointer appear on other elements than button: https://www.tutorialrepublic.com/faq/how-to-change-the-cursor-into-a-hand-pointer-on-hover-using-css.php */
+.edit-link-container {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  float: right;
+  padding: 3px;
+}
+
+.delete-link-container {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: red;
+  float: right;
+  padding: 3px;
+  margin-right: 5px;
+}
+
+.edit-link-container-nofloat {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  padding: 3px;
+}
+
+.post-header {
+  font-weight: bold;
+}
+
+div.content-container {
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px 5px black;
+  margin: 10px 5px 10px 5px;
+  padding: 10px;
+}
+
+.comment-header {
+  font-weight: bold;
+  text-align: left;
+  padding-top: 15px;
+}
+
+.code-container {
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+  border: 2px solid black;
+  overflow: scroll;
+}
+
+.comment-container {
+  text-align: left;
+  padding: 10px 25px 10px 25px;
+}
+
+textarea {
+  height: 150px;
+}
